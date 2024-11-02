@@ -1,0 +1,160 @@
+body {
+    background: url(images/bg.jpeg);
+}
+#tampilan{
+	background-color: rgba(255, 249, 218, 0.7);
+	width: 1200px;
+	height: 5550px;
+	margin: auto;
+	padding: 5px;
+}
+#header{
+	background-color: black;
+	height: 200px;
+	width: 1200px;
+	overflow: hidden;
+}
+#teks{
+	background-color: maroon;
+	height: 20px;
+	width: 1194.3px;
+	overflow: hidden;
+	border-style: ridge;
+	border-color: white;
+}
+#menu {
+	background: black;
+	height: 39px;
+	width: 1200px;
+}
+#kiri {
+	background: #FFF7F1;
+	height: 5050px;
+	width: 880px;
+	float: left;
+	border-style: groove;
+	border-color: #31511E;
+}
+#kanan {
+	background: maroon;
+	height: 5050px;
+	width: 305px;
+	float: right;
+	border-style: groove;
+	border-color: #31511E;
+}
+#h2 {
+	font-family: sans-serif; 
+	color: black; 
+	text-align: left; 
+	margin-left: 20px;
+	text-decoration-line: underline; 
+	text-decoration-color: black;
+}
+#h3 {
+	font-family: sans-serif; 
+	color: white; 
+	text-align: center; 
+	text-decoration-line: underline; 
+	text-decoration-color: white;
+}
+#p {
+	text-align: justify;
+	font-family: sans-serif;
+	color: maroon;
+	margin-left: 20px;
+	margin-right: 20px;
+	line-height: 1.5;
+	text-indent: 45px;
+}
+#h4 {
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+}
+
+.box {
+    width: 580px;
+    height: 370px;
+    padding: 10px; 
+    border: 5px solid #333; 
+    margin: 0 auto; 
+    background-color: #f0f0f0;
+}
+.outline-box {
+    width: 300px;
+    height: 200px;
+    outline: 2px dashed #ff0000;
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+.icon {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #007bff;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+
+ul {
+    list-style-type: circle; 
+    padding-left: 20px; 
+    font-family: sans-serif;
+    color: maroon;
+    margin-right: 10px;
+}
+ol {
+	list-style-type: decimal; 
+    font-family: sans-serif;
+    color: maroon;
+    margin-right: 10px;
+}
+
+li.a {
+    margin: 5px 0; 
+    font-family: sans-serif;
+    color: maroon;
+    margin-right: 10px;
+}
+
+li.b {
+    margin: 5px 0; 
+    font-family: sans-serif;
+    color: maroon;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black; 
+    padding: 10px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+th {
+    background-color: maroon;
+    height: 50px; 
+    color: white;
+}
+
+td {
+	color: maroon;
+}
+
+tr:nth-child(even) {
+    background-color: #DAD4B5; 
+}
